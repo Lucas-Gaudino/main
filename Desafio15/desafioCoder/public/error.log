@@ -1,0 +1,10 @@
+{"level":"error","message":{"URL":"/api/randoms","error":"a is not defined","method":"GET"}}
+{"level":"error","message":{"error":"Messages validation failed: author.alias: Path `author.alias` is required., author.edad: Path `author.edad` is required., text: Path `text` is required."}}
+{"level":"error","message":{"error":"Messages validation failed: author.alias: Path `author.alias` is required., author.edad: Path `author.edad` is required., text: Path `text` is required."}}
+{"level":"error","message":{"error":"Messages validation failed: author.alias: Path `author.alias` is required., author.edad: Path `author.edad` is required., text: Path `text` is required."}}
+{"level":"error","message":{"error":"Messages validation failed: author.alias: Path `author.alias` is required., author.edad: Path `author.edad` is required., text: Path `text` is required."}}
+{"level":"error","message":{"URL":"/login","error":"Cannot destructure property 'username' of 'req.usera' as it is undefined.","method":"POST"}}
+{"level":"error","message":{"URL":"/login","error":"Cannot destructure property 'username' of 'req.usera' as it is undefined.","method":"POST"}}
+{"level":"error","message":{"URL":"/login","error":"Cannot destructure property 'username' of 'req.usera' as it is undefined.","method":"POST"}}
+{"level":"error","message":{"URL":"/login","error":"Cannot destructure property 'username' of 'req.usera' as it is undefined.","method":"POST"}}
+{"level":"error","message":{"URL":"/api/randoms","error":"a is not defined","method":"GET"}}

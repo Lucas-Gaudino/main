@@ -1,0 +1,2 @@
+El console log hace que el render tarde más en la carga
+Y el promedio de latencia es mayor con un console.log

@@ -1,0 +1,38 @@
+[2022-09-07T17:52:47.571] [WARN] custom - Ruta: /auth/asd Metodo: GET
+[2022-09-07T17:52:50.349] [WARN] custom - Ruta: /auth/login Metodo: GET
+[2022-09-07T17:53:14.052] [WARN] custom - Ruta: /auth/login Metodo: GET
+[2022-09-07T17:53:15.902] [WARN] custom - Ruta: /auth Metodo: GET
+[2022-09-07T17:53:20.240] [WARN] custom - Ruta: /auth/register Metodo: GET
+[2022-09-07T18:05:22.384] [WARN] custom - Ruta: /register Metodo: GET
+[2022-09-07T18:05:39.392] [WARN] custom - Ruta: /register Metodo: GET
+[2022-09-07T18:07:12.874] [WARN] custom - Ruta: /register Metodo: GET
+[2022-09-07T18:09:24.562] [WARN] custom - Ruta: /login Metodo: GET
+[2022-09-07T18:31:02.275] [WARN] custom - Ruta: /as Metodo: GET
+[2022-09-07T18:39:25.458] [WARN] custom - Ruta: /as Metodo: GET
+[2022-09-07T18:40:17.008] [ERROR] custom - newProduct is not defined
+[2022-09-07T18:40:17.138] [WARN] custom - Ruta: /undefined Metodo: GET
+[2022-09-07T18:40:38.705] [ERROR] custom - newProduct is not defined
+[2022-09-07T18:40:38.727] [WARN] custom - Ruta: /undefined Metodo: GET
+[2022-09-07T18:40:52.063] [ERROR] custom - newProduct is not defined
+[2022-09-07T18:41:21.099] [ERROR] custom - newProduct is not defined
+[2022-09-07T18:42:01.910] [ERROR] custom - this.getAll is not a function
+[2022-09-07T18:42:29.907] [ERROR] custom - this.getAll is not a function
+[2022-09-07T18:42:48.025] [ERROR] custom - Cannot read properties of undefined (reading 'length')
+[2022-09-07T18:43:36.317] [ERROR] custom - Cannot read properties of undefined (reading 'length')
+[2022-09-07T18:45:03.164] [ERROR] custom - Cannot read properties of undefined (reading 'length')
+[2022-09-07T18:45:44.826] [ERROR] custom - Cannot read properties of undefined (reading 'push')
+[2022-09-07T18:46:57.480] [ERROR] custom - Cannot read properties of undefined (reading 'push')
+[2022-09-08T15:08:53.443] [WARN] custom - Ruta: /favicon.ico Metodo: GET
+[2022-09-08T15:11:59.898] [WARN] custom - Ruta: /asd Metodo: GET
+[2022-09-08T15:19:49.621] [WARN] custom - Ruta: /asd Metodo: GET
+[2022-09-08T15:21:06.939] [WARN] custom - Ruta: /sad Metodo: GET
+[2022-09-08T15:32:09.877] [WARN] custom - Ruta: /favicon.ico Metodo: GET
+[2022-09-08T16:07:30.306] [ERROR] custom - getAll is not defined
+[2022-09-08T16:07:39.916] [ERROR] custom - getAll is not defined
+[2022-09-08T16:08:31.522] [ERROR] custom - getAll is not defined
+[2022-09-08T16:09:46.966] [ERROR] custom - getAll is not defined
+[2022-09-08T16:10:48.492] [ERROR] custom - getAll is not defined
+[2022-09-08T16:11:45.839] [ERROR] custom - getAll is not defined
+[2022-09-08T16:12:42.767] [ERROR] custom - getAll is not defined
+[2022-09-08T16:13:27.270] [ERROR] custom - getAll is not defined
+[2022-09-08T16:14:29.740] [ERROR] custom - saveFile is not defined

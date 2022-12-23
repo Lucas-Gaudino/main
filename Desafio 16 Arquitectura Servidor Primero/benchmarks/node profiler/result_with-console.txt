@@ -1,0 +1,1092 @@
+Statistical profiling result from main-console.log, (8695 ticks, 15 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+   6492   74.7%          /home/alan/.nvm/versions/node/v17.1.0/bin/node
+    206    2.4%          /usr/lib/x86_64-linux-gnu/libc-2.31.so
+      9    0.1%          /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28
+      5    0.1%          [vdso]
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     63    0.7%    3.2%  LazyCompile: *parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     39    0.4%    2.0%  LazyCompile: *resolve node:path:1091:10
+     29    0.3%    1.5%  LazyCompile: *wrap /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+     27    0.3%    1.4%  LazyCompile: *next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+     27    0.3%    1.4%  LazyCompile: *makeAbs /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/common.js:203:18
+     24    0.3%    1.2%  LazyCompile: *readPackage node:internal/modules/cjs/loader:290:21
+     23    0.3%    1.2%  LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     22    0.3%    1.1%  LazyCompile: *SourceNode_walk /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:221:53
+     20    0.2%    1.0%  LazyCompile: *fulfilled /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+     19    0.2%    1.0%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:167:47
+     17    0.2%    0.9%  LazyCompile: *join node:path:1166:7
+     13    0.1%    0.7%  LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     11    0.1%    0.6%  LazyCompile: *anonymous /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+     10    0.1%    0.5%  LazyCompile: *normalizeString node:path:66:25
+     10    0.1%    0.5%  LazyCompile: *generateList /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:143:38
+     10    0.1%    0.5%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:368:47
+      9    0.1%    0.5%  LazyCompile: *next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:177:16
+      9    0.1%    0.5%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:174:29
+      8    0.1%    0.4%  LazyCompile: *template /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/runtime.js:52:18
+      8    0.1%    0.4%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      7    0.1%    0.4%  RegExp: [ \t]+$
+      7    0.1%    0.4%  LazyCompile: *setupHelper /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1020:36
+      7    0.1%    0.4%  LazyCompile: *processTicksAndRejections node:internal/process/task_queues:68:35
+      7    0.1%    0.4%  LazyCompile: *WhitespaceControl.Program /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:19:48
+      7    0.1%    0.4%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      6    0.1%    0.3%  RegExp: ^(?:[^\x00]*?(?=(\{\{)))
+      6    0.1%    0.3%  LazyCompile: *relative node:path:1190:11
+      6    0.1%    0.3%  LazyCompile: *pushProgram /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:615:36
+      5    0.1%    0.3%  LazyCompile: *castChunk /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      5    0.1%    0.3%  LazyCompile: *SourceNode_add /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:172:51
+      4    0.0%    0.2%  LazyCompile: *readFile node:fs:373:18
+      4    0.0%    0.2%  LazyCompile: *normalize node:path:1127:12
+      4    0.0%    0.2%  LazyCompile: *asString /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/date-format/lib/index.js:29:18
+      4    0.0%    0.2%  LazyCompile: *appendContent /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:375:40
+      4    0.0%    0.2%  LazyCompile: *_write node:internal/streams/writable:284:16
+      4    0.0%    0.2%  LazyCompile: *__awaiter /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      4    0.0%    0.2%  LazyCompile: *Module._nodeModulePaths node:internal/modules/cjs/loader:629:37
+      4    0.0%    0.2%  LazyCompile: *Glob._process /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:295:36
+      4    0.0%    0.2%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js:78:49
+      4    0.0%    0.2%  Function: ^<anonymous> node:internal/util:347:32
+      3    0.0%    0.2%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+\/[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      3    0.0%    0.2%  RegExp: ^(?:\{\{(~)?#>)
+      3    0.0%    0.2%  RegExp: [^\t\x20-\x7e\x80-\xff]
+      3    0.0%    0.2%  LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:23:22
+      3    0.0%    0.2%  LazyCompile: *set /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/application.js:359:23
+      3    0.0%    0.2%  LazyCompile: *realpathSync node:fs:2408:22
+      3    0.0%    0.2%  LazyCompile: *readFileAfterClose node:internal/fs/read_file_context:46:28
+      3    0.0%    0.2%  LazyCompile: *quotedString /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      3    0.0%    0.2%  LazyCompile: *preparePath /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:63:21
+      3    0.0%    0.2%  LazyCompile: *extend /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/utils.js:28:16
+      3    0.0%    0.2%  LazyCompile: *dirname node:path:1275:10
+      3    0.0%    0.2%  LazyCompile: *digest node:internal/crypto/hash:115:40
+      3    0.0%    0.2%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:201:47
+      3    0.0%    0.2%  Function: ^setImmediate node:timers:278:22
+      2    0.0%    0.1%  RegExp: ^\s*([^\s;]+)\s*(?:;(.*))?$
+      2    0.0%    0.1%  RegExp: ^[\^_`a-zA-Z\-0-9!#$%&'*+.|~]+$
+      2    0.0%    0.1%  RegExp: ^(?:\}(~)?\}\})
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?\{)
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?\s*else\b)
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?\^\s*(~)?\}\})
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?\^)
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?\*?)
+      2    0.0%    0.1%  RegExp: ^(?:\s+)
+      2    0.0%    0.1%  RegExp: \r?\n\s*?$
+      2    0.0%    0.1%  RegExp: (^|\r?\n)\s*?$
+      2    0.0%    0.1%  RegExp: (?:\r\n?|\n).*
+      2    0.0%    0.1%  LazyCompile: *trim_prefix /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:293:23
+      2    0.0%    0.1%  LazyCompile: *readFileSync node:fs:450:22
+      2    0.0%    0.1%  LazyCompile: *readFileAfterStat node:fs:326:27
+      2    0.0%    0.1%  LazyCompile: *pushSource /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      2    0.0%    0.1%  LazyCompile: *push /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      2    0.0%    0.1%  LazyCompile: *prepareProgram /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:185:24
+      2    0.0%    0.1%  LazyCompile: *preamble /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:208:30
+      2    0.0%    0.1%  LazyCompile: *popStack /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:960:30
+      2    0.0%    0.1%  LazyCompile: *parserOnIncoming node:_http_server:852:26
+      2    0.0%    0.1%  LazyCompile: *opcode /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:347:26
+      2    0.0%    0.1%  LazyCompile: *nextTick node:internal/process/task_queues:104:18
+      2    0.0%    0.1%  LazyCompile: *matchKnownFields node:_http_incoming:234:26
+      2    0.0%    0.1%  LazyCompile: *inflight /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/inflight/inflight.js:7:19
+      2    0.0%    0.1%  LazyCompile: *formatWithOptionsInternal node:internal/util/inspect:1891:35
+      2    0.0%    0.1%  LazyCompile: *classifySexpr /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:363:40
+      2    0.0%    0.1%  LazyCompile: *appendToBuffer /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:42:42
+      2    0.0%    0.1%  LazyCompile: *_storeHeader node:_http_outgoing:374:22
+      2    0.0%    0.1%  LazyCompile: *_addListener node:events:418:22
+      2    0.0%    0.1%  LazyCompile: *__generator /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:27:58
+      2    0.0%    0.1%  LazyCompile: *Program /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:113:28
+      2    0.0%    0.1%  LazyCompile: *PathExpression /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:289:42
+      2    0.0%    0.1%  LazyCompile: *Hash node:internal/crypto/hash:58:14
+      2    0.0%    0.1%  LazyCompile: *Glob._readdir /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:525:36
+      2    0.0%    0.1%  LazyCompile: *Glob._processReaddir2 /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:375:44
+      2    0.0%    0.1%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:98:47
+      2    0.0%    0.1%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      2    0.0%    0.1%  Function: ^writeend /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:260:24
+      2    0.0%    0.1%  Function: ^writeOrBuffer node:internal/streams/writable:366:23
+      2    0.0%    0.1%  Function: ^urlencodedParser /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/body-parser/lib/types/urlencoded.js:79:36
+      2    0.0%    0.1%  Function: ^setHeader node:_http_outgoing:574:57
+      2    0.0%    0.1%  Function: ^resOnFinish node:_http_server:786:21
+      2    0.0%    0.1%  Function: ^readableAddChunk node:internal/streams/readable:242:26
+      2    0.0%    0.1%  Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      2    0.0%    0.1%  Function: ^processPromiseRejections node:internal/process/promises:203:34
+      2    0.0%    0.1%  Function: ^prepareBlock /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:140:22
+      2    0.0%    0.1%  Function: ^parserOnHeadersComplete node:_http_common:77:33
+      2    0.0%    0.1%  Function: ^lookupOnContext /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      2    0.0%    0.1%  Function: ^getEncodingOps node:buffer:678:24
+      2    0.0%    0.1%  Function: ^fulfilled /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      2    0.0%    0.1%  Function: ^debug /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/node_modules/debug/src/common.js:66:17
+      2    0.0%    0.1%  Function: ^debug /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/debug/src/debug.js:65:17
+      2    0.0%    0.1%  Function: ^compressible /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/compressible/index.js:41:23
+      2    0.0%    0.1%  Function: ^clearBuffer node:internal/streams/writable:530:21
+      2    0.0%    0.1%  Function: ^_onceWrap node:events:514:19
+      2    0.0%    0.1%  Function: ^_destroy node:_http_incoming:176:55
+      2    0.0%    0.1%  Function: ^Module._resolveLookupPaths node:internal/modules/cjs/loader:667:38
+      2    0.0%    0.1%  Function: ^Glob._process /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:295:36
+      2    0.0%    0.1%  Function: ^Glob /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:117:15
+      2    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:625:43
+      2    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:551:19
+      2    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    0.0%    0.1%  RegExp: ^\s*([^;\s]*)(?:;|\s|$)
+      1    0.0%    0.1%  RegExp: ^\.|this\b
+      1    0.0%    0.1%  RegExp: ^[\u0009\u0020-\u007e\u0080-\u00ff]+$
+      1    0.0%    0.1%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      1    0.0%    0.1%  RegExp: ^.*?\.
+      1    0.0%    0.1%  RegExp: ^(?:\{\{\{\{)
+      1    0.0%    0.1%  RegExp: ^(?:\{\{(~)?\s*else\s*(~)?\}\})
+      1    0.0%    0.1%  RegExp: ^(?:\{\{(~)?!--)
+      1    0.0%    0.1%  RegExp: ^(?:\.\.)
+      1    0.0%    0.1%  RegExp: ^(?:\.(?=([=~}\s\/.)|])))
+      1    0.0%    0.1%  RegExp: ^(?:\))
+      1    0.0%    0.1%  RegExp: ^(?:@)
+      1    0.0%    0.1%  RegExp: ^(?:-?[0-9]+(?:\.[0-9]+)?(?=([~}\s)])))
+      1    0.0%    0.1%  RegExp: ^(?:(~)?\}\})
+      1    0.0%    0.1%  RegExp: ^(?:([^\s!"#%-,\.\/;->@\[-\^`\{-~]+(?=([=~}\s\/.)|]))))
+      1    0.0%    0.1%  RegExp: ^(?:"(\\["]|[^"])*")
+      1    0.0%    0.1%  RegExp: [&<>"'`=]
+      1    0.0%    0.1%  RegExp: (?:^|[\\/])\.\.(?:[\\/]|$)
+      1    0.0%    0.1%  LazyCompile: *write_ node:_http_outgoing:730:16
+      1    0.0%    0.1%  LazyCompile: *wrapper /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/wrappy/wrappy.js:19:19
+      1    0.0%    0.1%  LazyCompile: *update node:internal/crypto/hash:95:40
+      1    0.0%    0.1%  LazyCompile: *stringToFlags node:internal/fs/utils:555:23
+      1    0.0%    0.1%  LazyCompile: *stat node:internal/modules/cjs/loader:151:14
+      1    0.0%    0.1%  LazyCompile: *setHeader node:_http_outgoing:574:57
+      1    0.0%    0.1%  LazyCompile: *send /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:111:25
+      1    0.0%    0.1%  LazyCompile: *ret /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1    0.0%    0.1%  LazyCompile: *replaceStack /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1    0.0%    0.1%  LazyCompile: *readdir node:fs:1353:17
+      1    0.0%    0.1%  LazyCompile: *readFileAfterRead node:internal/fs/read_file_context:25:27
+      1    0.0%    0.1%  LazyCompile: *readFileAfterOpen node:fs:310:27
+      1    0.0%    0.1%  LazyCompile: *push /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:79:22
+      1    0.0%    0.1%  LazyCompile: *processImmediate node:internal/timers:421:28
+      1    0.0%    0.1%  LazyCompile: *parserOnHeadersComplete node:_http_common:77:33
+      1    0.0%    0.1%  LazyCompile: *parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/vary/index.js:96:16
+      1    0.0%    0.1%  LazyCompile: *parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/minimatch/minimatch.js:413:9
+      1    0.0%    0.1%  LazyCompile: *normalizeParseOptions /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/qs/lib/parse.js:204:59
+      1    0.0%    0.1%  LazyCompile: *lookupProperty /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/runtime.js:118:44
+      1    0.0%    0.1%  LazyCompile: *isInline /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:956:30
+      1    0.0%    0.1%  LazyCompile: *invokeAmbiguous /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1    0.0%    0.1%  LazyCompile: *initAsyncResource node:internal/timers:157:27
+      1    0.0%    0.1%  LazyCompile: *go$readFile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:117:26
+      1    0.0%    0.1%  LazyCompile: *getEncodingOps node:buffer:678:24
+      1    0.0%    0.1%  LazyCompile: *get node:internal/streams/writable:784:8
+      1    0.0%    0.1%  LazyCompile: *fromStringFast node:buffer:412:24
+      1    0.0%    0.1%  LazyCompile: *finish /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/common.js:122:17
+      1    0.0%    0.1%  LazyCompile: *extname node:path:1385:10
+      1    0.0%    0.1%  LazyCompile: *emit node:events:340:44
+      1    0.0%    0.1%  LazyCompile: *compileFunction node:vm:308:25
+      1    0.0%    0.1%  LazyCompile: *clearBuffer node:internal/streams/writable:530:21
+      1    0.0%    0.1%  LazyCompile: *append /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/vary/index.js:38:17
+      1    0.0%    0.1%  LazyCompile: *anonymous /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:549:49
+      1    0.0%    0.1%  LazyCompile: *aliasable /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1006:32
+      1    0.0%    0.1%  LazyCompile: *accept /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      1    0.0%    0.1%  LazyCompile: *WhitespaceControl.BlockStatement.WhitespaceControl.DecoratorBlock.WhitespaceControl.PartialBlockStatement /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:75:152
+      1    0.0%    0.1%  LazyCompile: *SourceNode_prepend /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:197:59
+      1    0.0%    0.1%  LazyCompile: *SourceNode /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:35:20
+      1    0.0%    0.1%  LazyCompile: *SendStream /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/send/index.js:96:21
+      1    0.0%    0.1%  LazyCompile: *RES /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/inflight/inflight.js:18:28
+      1    0.0%    0.1%  LazyCompile: *Module._resolveLookupPaths node:internal/modules/cjs/loader:667:38
+      1    0.0%    0.1%  LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      1    0.0%    0.1%  LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1    0.0%    0.1%  LazyCompile: *Hmac node:internal/crypto/hash:127:14
+      1    0.0%    0.1%  LazyCompile: *Glob._emitMatch /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:454:38
+      1    0.0%    0.1%  LazyCompile: *ExpressHandlebars.getTemplate /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:162:56
+      1    0.0%    0.1%  LazyCompile: *<anonymous> node:internal/fs/utils:680:42
+      1    0.0%    0.1%  LazyCompile: *<anonymous> :1:20
+      1    0.0%    0.1%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/runtime.js:360:47
+      1    0.0%    0.1%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:625:43
+      1    0.0%    0.1%  LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:331:47
+      1    0.0%    0.1%  Function: ^writetop /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:270:24
+      1    0.0%    0.1%  Function: ^write_ node:_http_outgoing:730:16
+      1    0.0%    0.1%  Function: ^writeHead node:_http_server:267:19
+      1    0.0%    0.1%  Function: ^writeHead /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/on-headers/index.js:28:29
+      1    0.0%    0.1%  Function: ^writeGeneric node:internal/stream_base_commons:151:22
+      1    0.0%    0.1%  Function: ^write node:buffer:592:12
+      1    0.0%    0.1%  Function: ^wrapProgram /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/runtime.js:259:21
+      1    0.0%    0.1%  Function: ^validateEncoding node:internal/validators:199:26
+      1    0.0%    0.1%  Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      1    0.0%    0.1%  Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      1    0.0%    0.1%  Function: ^toString node:buffer:782:46
+      1    0.0%    0.1%  Function: ^stringToFlags node:internal/fs/utils:555:23
+      1    0.0%    0.1%  Function: ^step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    0.0%    0.1%  Function: ^specify /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/negotiator/lib/encoding.js:117:17
+      1    0.0%    0.1%  Function: ^simpleId /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/ast.js:21:32
+      1    0.0%    0.1%  Function: ^setupParams /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1034:36
+      1    0.0%    0.1%  Function: ^setopts /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/common.js:48:18
+      1    0.0%    0.1%  Function: ^setHasTickScheduled node:internal/process/task_queues:52:29
+      1    0.0%    0.1%  Function: ^session /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:179:26
+      1    0.0%    0.1%  Function: ^serveStatic /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/serve-static/index.js:72:31
+      1    0.0%    0.1%  Function: ^sendFile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/send/index.js:712:51
+      1    0.0%    0.1%  Function: ^send /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:111:25
+      1    0.0%    0.1%  Function: ^save /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:403:20
+      1    0.0%    0.1%  Function: ^retry /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:397:16
+      1    0.0%    0.1%  Function: ^ret /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1    0.0%    0.1%  Function: ^res.render /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-flash/lib/express-flash.js:26:29
+      1    0.0%    0.1%  Function: ^replaceStack /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1    0.0%    0.1%  Function: ^render /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:1016:29
+      1    0.0%    0.1%  Function: ^removeListener node:events:557:28
+      1    0.0%    0.1%  Function: ^realpathSync node:fs:2408:22
+      1    0.0%    0.1%  Function: ^readdirCb /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:550:20
+      1    0.0%    0.1%  Function: ^readSync node:fs:684:18
+      1    0.0%    0.1%  Function: ^readFileAfterStat node:fs:326:27
+      1    0.0%    0.1%  Function: ^readFileAfterRead node:internal/fs/read_file_context:25:27
+      1    0.0%    0.1%  Function: ^read node:internal/fs/read_file_context:85:7
+      1    0.0%    0.1%  Function: ^qstring /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/content-type/index.js:200:18
+      1    0.0%    0.1%  Function: ^pushSource /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1    0.0%    0.1%  Function: ^pushContext /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:437:36
+      1    0.0%    0.1%  Function: ^push /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:79:22
+      1    0.0%    0.1%  Function: ^processImmediate node:internal/timers:421:28
+      1    0.0%    0.1%  Function: ^popStack /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:960:30
+      1    0.0%    0.1%  Function: ^parserOnMessageComplete node:_http_common:147:33
+      1    0.0%    0.1%  Function: ^parserOnIncoming node:_http_server:852:26
+      1    0.0%    0.1%  Function: ^parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/vary/index.js:96:16
+      1    0.0%    0.1%  Function: ^parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/minimatch/minimatch.js:413:9
+      1    0.0%    0.1%  Function: ^parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1    0.0%    0.1%  Function: ^parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/node_modules/cookie/index.js:48:15
+      1    0.0%    0.1%  Function: ^parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/content-type/index.js:106:16
+      1    0.0%    0.1%  Function: ^ownProp /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/common.js:9:18
+      1    0.0%    0.1%  Function: ^opcode /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:347:26
+      1    0.0%    0.1%  Function: ^onstat /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/send/index.js:717:33
+      1    0.0%    0.1%  Function: ^onResponseHeaders /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/compression/index.js:140:47
+      1    0.0%    0.1%  Function: ^ok node:assert:410:12
+      1    0.0%    0.1%  Function: ^next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/route.js:116:16
+      1    0.0%    0.1%  Function: ^next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:177:16
+      1    0.0%    0.1%  Function: ^multiplication32 /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/modules/mersenne/twister.js:1:885
+      1    0.0%    0.1%  Function: ^merge /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:83:24
+      1    0.0%    0.1%  Function: ^makeRequireFunction node:internal/modules/cjs/helpers:58:29
+      1    0.0%    0.1%  Function: ^lookup /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/view.js:104:40
+      1    0.0%    0.1%  Function: ^log /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/logger.js:82:6
+      1    0.0%    0.1%  Function: ^isNextWhitespace /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:165:26
+      1    0.0%    0.1%  Function: ^isInline /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:956:30
+      1    0.0%    0.1%  Function: ^isFileType node:fs:205:20
+      1    0.0%    0.1%  Function: ^isAbsolute node:path:1156:13
+      1    0.0%    0.1%  Function: ^invokeAmbiguous /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1    0.0%    0.1%  Function: ^initialize /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/passport/lib/middleware/initialize.js:51:29
+      1    0.0%    0.1%  Function: ^initData /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/runtime.js:342:18
+      1    0.0%    0.1%  Function: ^initAsyncResource node:internal/timers:157:27
+      1    0.0%    0.1%  Function: ^incrStack /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:931:32
+      1    0.0%    0.1%  Function: ^id /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:44:12
+      1    0.0%    0.1%  Function: ^helperSexpr /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:271:36
+      1    0.0%    0.1%  Function: ^getcookie /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:529:19
+      1    0.0%    0.1%  Function: ^getObserverType node:internal/perf/observe:117:25
+      1    0.0%    0.1%  Function: ^getHeader node:_http_outgoing:590:57
+      1    0.0%    0.1%  Function: ^getEnableCallStackForCategory /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/categories.js:205:39
+      1    0.0%    0.1%  Function: ^get hasSubscribers node:diagnostics_channel:88:21
+      1    0.0%    0.1%  Function: ^get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/session/memory.js:106:41
+      1    0.0%    0.1%  Function: ^findLongestRegisteredExtension node:internal/modules/cjs/loader:413:40
+      1    0.0%    0.1%  Function: ^expressInit /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/middleware/init.js:29:30
+      1    0.0%    0.1%  Function: ^entitytag /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/etag/index.js:39:20
+      1    0.0%    0.1%  Function: ^end node:_http_outgoing:833:45
+      1    0.0%    0.1%  Function: ^doWrite node:internal/streams/writable:399:17
+      1    0.0%    0.1%  Function: ^createNewLookupObject /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js:15:31
+      1    0.0%    0.1%  Function: ^createFunctionContext /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:216:56
+      1    0.0%    0.1%  Function: ^compression /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/compression/index.js:59:31
+      1    0.0%    0.1%  Function: ^compileFunction node:vm:308:25
+      1    0.0%    0.1%  Function: ^clearTimeout node:timers:184:22
+      1    0.0%    0.1%  Function: ^braceExpand /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/minimatch/minimatch.js:109:21
+      1    0.0%    0.1%  Function: ^authenticate /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/passport/lib/middleware/authenticate.js:94:31
+      1    0.0%    0.1%  Function: ^appendContent /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:375:40
+      1    0.0%    0.1%  Function: ^adjustOffset node:buffer:1098:22
+      1    0.0%    0.1%  Function: ^_write node:internal/streams/writable:284:16
+      1    0.0%    0.1%  Function: ^_unrefTimer node:net:417:52
+      1    0.0%    0.1%  Function: ^_log /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/logger.js:106:7
+      1    0.0%    0.1%  Function: ^_flushOutput node:_http_outgoing:950:63
+      1    0.0%    0.1%  Function: ^_addListener node:events:418:22
+      1    0.0%    0.1%  Function: ^WhitespaceControl.Program /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:19:48
+      1    0.0%    0.1%  Function: ^WhitespaceControl.BlockStatement.WhitespaceControl.DecoratorBlock.WhitespaceControl.PartialBlockStatement /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:75:152
+      1    0.0%    0.1%  Function: ^SubExpression /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:236:40
+      1    0.0%    0.1%  Function: ^Stream node:internal/streams/legacy:10:16
+      1    0.0%    0.1%  Function: ^SourceNode_prepend /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:197:59
+      1    0.0%    0.1%  Function: ^SourceNode_add /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:172:51
+      1    0.0%    0.1%  Function: ^OutgoingMessage node:_http_outgoing:97:25
+      1    0.0%    0.1%  Function: ^O /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/yargs/build/index.cjs:1:3174
+      1    0.0%    0.1%  Function: ^Module.require node:internal/modules/cjs/loader:991:36
+      1    0.0%    0.1%  Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1    0.0%    0.1%  Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1    0.0%    0.1%  Function: ^Minimatch /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/minimatch/minimatch.js:163:15
+      1    0.0%    0.1%  Function: ^LoggingEvent /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/LoggingEvent.js:17:14
+      1    0.0%    0.1%  Function: ^LazyTransform node:internal/streams/lazy_transform:20:23
+      1    0.0%    0.1%  Function: ^Glob._processReaddir /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:368:43
+      1    0.0%    0.1%  Function: ^FastBuffer node:internal/buffer:958:14
+      1    0.0%    0.1%  Function: ^ExpressHandlebars._compileTemplate /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:313:61
+      1    0.0%    0.1%  Function: ^EventEmitter.init node:events:194:29
+      1    0.0%    0.1%  Function: ^<anonymous> node:vm:313:27
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/validators:84:3
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/validators:168:39
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/validators:101:40
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/util:346:24
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/fs/utils:680:42
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/fs/utils:668:38
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/crypto/util:114:46
+      1    0.0%    0.1%  Function: ^<anonymous> node:internal/console/constructor:338:10
+      1    0.0%    0.1%  Function: ^<anonymous> :1:1
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/inflight/inflight.js:38:35
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/runtime.js:360:47
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js:78:49
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js:75:19
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js:15:44
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:396:34
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:235:48
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:118:50
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:346:39
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:220:28
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:98:47
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:368:47
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:366:57
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:331:47
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:181:44
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:167:47
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:107:67
+      1    0.0%    0.1%  Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-flash/lib/express-flash.js:22:37
+
+ [C++]:
+   ticks  total  nonlib   name
+    232    2.7%   11.7%  __write
+    180    2.1%    9.1%  __pthread_cond_signal
+     88    1.0%    4.4%  fwrite
+     82    0.9%    4.1%  epoll_pwait
+     68    0.8%    3.4%  std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+     58    0.7%    2.9%  _IO_file_xsputn
+     49    0.6%    2.5%  writev
+     48    0.6%    2.4%  __pthread_cond_wait
+     47    0.5%    2.4%  __libc_read
+     34    0.4%    1.7%  __GI___pthread_mutex_unlock
+     32    0.4%    1.6%  syscall
+     31    0.4%    1.6%  std::ostream::sentry::sentry(std::ostream&)
+     30    0.3%    1.5%  __libc_malloc
+     14    0.2%    0.7%  __lll_lock_wait
+     13    0.1%    0.7%  cfree
+     11    0.1%    0.6%  __GI___pthread_mutex_lock
+      9    0.1%    0.5%  std::ostream& std::ostream::_M_insert<long>(long)
+      8    0.1%    0.4%  __mprotect
+      5    0.1%    0.3%  operator new[](unsigned long)
+      4    0.0%    0.2%  std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
+      4    0.0%    0.2%  operator new(unsigned long)
+      4    0.0%    0.2%  __libc_open
+      3    0.0%    0.2%  std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+      3    0.0%    0.2%  __GI___pthread_rwlock_unlock
+      2    0.0%    0.1%  std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+      2    0.0%    0.1%  operator delete(void*)
+      2    0.0%    0.1%  getrusage
+      2    0.0%    0.1%  fflush
+      2    0.0%    0.1%  epoll_ctl
+      2    0.0%    0.1%  __munmap
+      2    0.0%    0.1%  __clock_gettime
+      2    0.0%    0.1%  __GI___pthread_once
+      1    0.0%    0.1%  std::ostream::put(char)
+      1    0.0%    0.1%  std::ostream::operator<<(int)
+      1    0.0%    0.1%  std::locale::id::_M_id() const
+      1    0.0%    0.1%  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+      1    0.0%    0.1%  operator delete[](void*)
+      1    0.0%    0.1%  __vsnprintf
+      1    0.0%    0.1%  __pthread_mutex_unlock_usercnt
+      1    0.0%    0.1%  __pthread_enable_asynccancel
+      1    0.0%    0.1%  __mmap
+      1    0.0%    0.1%  __libc_write
+      1    0.0%    0.1%  __errno_location
+      1    0.0%    0.1%  __GI___pthread_rwlock_wrlock
+      1    0.0%    0.1%  __GI___pthread_getspecific
+      1    0.0%    0.1%  _IO_setb
+      1    0.0%    0.1%  _IO_default_xsputn
+
+ [Summary]:
+   ticks  total  nonlib   name
+    880   10.1%   44.4%  JavaScript
+   1088   12.5%   54.9%  C++
+    466    5.4%   23.5%  GC
+   6712   77.2%          Shared libraries
+     15    0.2%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+    215   25.0%    2.5%  __write
+    176   20.4%    2.0%  __pthread_cond_signal
+     88   10.2%    1.0%  fwrite
+     67    7.8%    0.8%  std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+     57    6.6%    0.7%  _IO_file_xsputn
+     49    5.7%    0.6%  writev
+     33    3.8%    0.4%  __GI___pthread_mutex_unlock
+     32    3.7%    0.4%  syscall
+     30    3.5%    0.3%  std::ostream::sentry::sentry(std::ostream&)
+     24    2.8%    0.3%  __libc_malloc
+     14    1.6%    0.2%  __lll_lock_wait
+      9    1.0%    0.1%  std::ostream& std::ostream::_M_insert<long>(long)
+      8    0.9%    0.1%  cfree
+      8    0.9%    0.1%  __GI___pthread_mutex_lock
+      5    0.6%    0.1%  operator new[](unsigned long)
+      5    0.6%    0.1%  __mprotect
+      4    0.5%    0.0%  std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
+      4    0.5%    0.0%  operator new(unsigned long)
+      4    0.5%    0.0%  __libc_open
+      3    0.3%    0.0%  std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+      2    0.2%    0.0%  std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const
+      2    0.2%    0.0%  operator delete(void*)
+      2    0.2%    0.0%  getrusage
+      2    0.2%    0.0%  fflush
+      2    0.2%    0.0%  __libc_read
+      2    0.2%    0.0%  __clock_gettime
+      2    0.2%    0.0%  __GI___pthread_rwlock_unlock
+      2    0.2%    0.0%  __GI___pthread_once
+      1    0.1%    0.0%  std::ostream::put(char)
+      1    0.1%    0.0%  std::ostream::operator<<(int)
+      1    0.1%    0.0%  std::locale::id::_M_id() const
+      1    0.1%    0.0%  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+      1    0.1%    0.0%  operator delete[](void*)
+      1    0.1%    0.0%  __vsnprintf
+      1    0.1%    0.0%  __pthread_enable_asynccancel
+      1    0.1%    0.0%  __GI___pthread_rwlock_wrlock
+      1    0.1%    0.0%  _IO_setb
+      1    0.1%    0.0%  _IO_default_xsputn
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   6492   74.7%  /home/alan/.nvm/versions/node/v17.1.0/bin/node
+   3665   56.5%    /home/alan/.nvm/versions/node/v17.1.0/bin/node
+    613   16.7%      Function: ^compileFunction node:vm:308:25
+    609   99.3%        Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+    604   99.2%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+    595   98.5%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      9    1.5%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1106:37
+    189    5.2%      /home/alan/.nvm/versions/node/v17.1.0/bin/node
+     15    7.9%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
+     12   80.0%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      8   66.7%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      4   33.3%            Function: ^trySelf node:internal/modules/cjs/loader:441:17
+      2   13.3%          Function: ^resolveExports node:internal/modules/cjs/loader:472:24
+      2  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1    6.7%          LazyCompile: ~tryPackage node:internal/modules/cjs/loader:338:20
+      1  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      9    4.8%        Function: ^expressInit /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/middleware/init.js:29:30
+      7   77.8%          LazyCompile: *trim_prefix /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:293:23
+      7  100.0%            LazyCompile: *next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:177:16
+      2   22.2%          Function: ^handle /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/layer.js:86:49
+      2  100.0%            Function: ^trim_prefix /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:293:23
+      8    4.2%        Function: ^set /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/session/memory.js:119:41
+      8  100.0%          Function: ^save /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/session/session.js:71:54
+      8  100.0%            Function: ^save /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:403:20
+      7    3.7%        LazyCompile: *quotedString /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      6   85.7%          Function: ^pushSource /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      5   83.3%            Function: ^append /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1   16.7%            Function: ^compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   14.3%          LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileChildren /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+      7    3.7%        LazyCompile: *pushSource /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      6   85.7%          Function: ^append /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      6  100.0%            LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   14.3%          Function: ^appendEscaped /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%            LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      6    3.2%        LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      3   50.0%          LazyCompile: *Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      3  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      3   50.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      3  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      6    3.2%        Function: ^parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/node_modules/cookie/index.js:48:15
+      6  100.0%          Function: ^getcookie /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:529:19
+      6  100.0%            Function: ^session /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:179:26
+      4    2.1%        LazyCompile: ~resolvePackageTargetString node:internal/modules/esm/resolve:464:36
+      4  100.0%          LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:521:30
+      4  100.0%            LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:521:30
+      4    2.1%        LazyCompile: *parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/minimatch/minimatch.js:413:9
+      4  100.0%          /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      4  100.0%            Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/minimatch/minimatch.js:222:19
+      4    2.1%        LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      3   75.0%          LazyCompile: *Module.require node:internal/modules/cjs/loader:991:36
+      3  100.0%            Function: ^require node:internal/modules/cjs/helpers:101:31
+      1   25.0%          Function: ^Module.require node:internal/modules/cjs/loader:991:36
+      1  100.0%            Function: ^require node:internal/modules/cjs/helpers:101:31
+      4    2.1%        LazyCompile: *<anonymous> :1:20
+      4  100.0%          LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js:78:49
+      4  100.0%            /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      4    2.1%        LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      4  100.0%          LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      4  100.0%            LazyCompile: *fulfilled /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      4    2.1%        Function: ^pipe /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/send/index.js:506:43
+      4  100.0%          Function: ^serveStatic /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/serve-static/index.js:72:31
+      3   75.0%            Function: ^handle /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/layer.js:86:49
+      1   25.0%            LazyCompile: *trim_prefix /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:293:23
+      4    2.1%        Function: ^header /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:777:29
+      3   75.0%          Function: ^send /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:111:25
+      3  100.0%            Function: ^done /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:1033:27
+      1   25.0%          Function: ^contentType /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:619:32
+      1  100.0%            Function: ^send /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:111:25
+      4    2.1%        Function: ^finish /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/common.js:122:17
+      4  100.0%          Function: ^Glob._finish /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:185:35
+      2   50.0%            LazyCompile: *Glob._processGlobStar2 /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:631:45
+      2   50.0%            Function: ^done /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:171:17
+      4    2.1%        Function: ^escapeExpression /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/utils.js:77:26
+      4  100.0%          Function: ^<anonymous> :1:20
+      3   75.0%            LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js:78:49
+      1   25.0%            Function: ^prog /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/runtime.js:260:16
+      4    2.1%        Function: ^asString /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/date-format/lib/index.js:29:18
+      4  100.0%          Function: ^timestampLevelAndCategory /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/layouts.js:42:35
+      4  100.0%            Function: ^colouredLayout /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/layouts.js:73:24
+      4    2.1%        /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      2   50.0%          Function: ^set /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/session/memory.js:119:41
+      2  100.0%            Function: ^save /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/session/session.js:71:54
+      1   25.0%          Function: ^Glob._processReaddir2 /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:375:44
+      1  100.0%            Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:370:43
+      1   25.0%          /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      1  100.0%            Function: ^Glob._processReaddir2 /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:375:44
+      3    1.6%        LazyCompile: *asString /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/date-format/lib/index.js:29:18
+      3  100.0%          Function: ^timestampLevelAndCategory /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/layouts.js:42:35
+      3  100.0%            Function: ^colouredLayout /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/layouts.js:73:24
+      3    1.6%        LazyCompile: *Glob._processReaddir2 /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:375:44
+      2   66.7%          LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:370:43
+      2  100.0%            LazyCompile: *RES /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/inflight/inflight.js:18:28
+      1   33.3%          Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:370:43
+      1  100.0%            LazyCompile: *RES /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/inflight/inflight.js:18:28
+      3    1.6%        Function: ^stat node:internal/modules/cjs/loader:151:14
+      3  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      3  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      3    1.6%        Function: ^format /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/content-type/index.js:65:17
+      2   66.7%          Function: ^setCharset /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/utils.js:248:41
+      2  100.0%            Function: ^send /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:111:25
+      1   33.3%          LazyCompile: *send /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:111:25
+      1  100.0%            Function: ^done /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:1033:27
+      2    1.1%        LazyCompile: ~isIPv6 node:internal/net:35:16
+      2  100.0%          LazyCompile: ~isIP node:internal/net:39:14
+      1   50.0%            LazyCompile: ~parseSslOptions /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:229:25
+      1   50.0%            LazyCompile: ~lookupAndConnect node:net:995:26
+      2    1.1%        LazyCompile: *session /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:179:26
+      2  100.0%          LazyCompile: *trim_prefix /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:293:23
+      2  100.0%            LazyCompile: *next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:177:16
+      2    1.1%        LazyCompile: *realpathSync node:fs:2408:22
+      1   50.0%          LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1   50.0%          Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%            Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      2    1.1%        LazyCompile: *header /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:777:29
+      2  100.0%          LazyCompile: *send /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:111:25
+      2  100.0%            Function: ^done /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/response.js:1033:27
+     83    2.3%      LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     37   44.6%        LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     37  100.0%          LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     35   94.6%            LazyCompile: *fulfilled /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      2    5.4%            LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+     25   30.1%        LazyCompile: *compileChildren /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+     25  100.0%          LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     13   52.0%            LazyCompile: *compileChildren /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+     12   48.0%            LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     14   16.9%        Function: ^compileChildren /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+     14  100.0%          LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      9   64.3%            Function: ^compileChildren /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+      3   21.4%            LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      2   14.3%            Function: ^compileInput /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      7    8.4%        Function: ^compileInput /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      7  100.0%          Function: ^ret /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      7  100.0%            Function: ^ExpressHandlebars._renderTemplate /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+     67    1.8%      Function: ^initialize /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/passport/lib/middleware/initialize.js:51:29
+     50   74.6%        LazyCompile: *trim_prefix /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:293:23
+     50  100.0%          LazyCompile: *next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:177:16
+     50  100.0%            Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:485:38
+     17   25.4%        Function: ^handle /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/layer.js:86:49
+     17  100.0%          Function: ^trim_prefix /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:293:23
+     12   70.6%            LazyCompile: *next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:177:16
+      5   29.4%            Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:280:64
+     61    1.7%      LazyCompile: ~configSecureContext node:internal/tls/secure-context:120:29
+     61  100.0%        LazyCompile: ~createSecureContext node:_tls_common:98:29
+     61  100.0%          LazyCompile: ~connect node:_tls_wrap:1597:35
+     61  100.0%            LazyCompile: ~makeConnection /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:248:24
+     60    1.6%      Function: ^compression /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/compression/index.js:59:31
+     42   70.0%        LazyCompile: *trim_prefix /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:293:23
+     42  100.0%          LazyCompile: *next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:177:16
+     42  100.0%            Function: ^error /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/serve-static/index.js:115:39
+     18   30.0%        Function: ^handle /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/layer.js:86:49
+     18  100.0%          Function: ^trim_prefix /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:293:23
+     15   83.3%            LazyCompile: *next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:177:16
+      3   16.7%            Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:280:64
+     53    1.4%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     44   83.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      8   18.2%          Function: ~<anonymous> node:crypto:1:1
+      8  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      6   13.6%          Function: ~<anonymous> node:internal/child_process:1:1
+      6  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      4    9.1%          Function: ~<anonymous> node:http:1:1
+      4  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3    6.8%          Function: ~<anonymous> node:tls:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3    6.8%          Function: ~<anonymous> node:_http_client:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    4.5%          LazyCompile: ~lazyLoadStreams node:fs:2841:25
+      2  100.0%            LazyCompile: ~get ReadStream node:fs:2984:17
+      2    4.5%          Function: ~<anonymous> node:internal/cluster/primary:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    4.5%          Function: ~<anonymous> node:child_process:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          LazyCompile: ~lazyRequire node:internal/crypto/util:67:21
+      1  100.0%            LazyCompile: ~get node:crypto:287:8
+      1    2.3%          LazyCompile: ~get node:dns:349:8
+      1  100.0%            /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      1    2.3%          LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:41:35
+      1  100.0%            LazyCompile: ~getStdout node:internal/bootstrap/switches/is_main_thread:121:19
+      1    2.3%          Function: ~<anonymous> node:net:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:internal/crypto/util:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:internal/crypto/hkdf:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:https:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:dns:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:cluster:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:assert:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:_tls_wrap:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:_tls_common:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:_http_server:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    2.3%          Function: ~<anonymous> node:_http_common:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      6   11.3%        Function: ^compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      6  100.0%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+      6  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      3    5.7%        LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      3  100.0%          LazyCompile: ~loadNativeModule node:internal/modules/cjs/helpers:44:26
+      3  100.0%            LazyCompile: ~Module._load node:internal/modules/cjs/loader:757:24
+     44    1.2%      LazyCompile: *next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+     39   88.6%        LazyCompile: *parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     39  100.0%          Function: ^parseWithoutProcessing /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+     26   66.7%            LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     13   33.3%            Function: ^parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      5   11.4%        Function: ^lex /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      5  100.0%          LazyCompile: *parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      5  100.0%            Function: ^parseWithoutProcessing /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+     42    1.1%      Function: ^readFileAfterOpen node:fs:310:27
+     39    1.1%      Function: ^close node:internal/fs/read_file_context:111:8
+     39  100.0%        Function: ^readFileAfterRead node:internal/fs/read_file_context:25:27
+     37    1.0%      LazyCompile: *SourceNode_walk /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:221:53
+     35   94.6%        LazyCompile: *SourceNode_walk /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:221:53
+     33   94.3%          LazyCompile: *SourceNode_walk /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:221:53
+     31   93.9%            LazyCompile: *SourceNode_walk /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:221:53
+      2    6.1%            Function: ^SourceNode_toString /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:318:61
+      2    5.7%          Function: ^SourceNode_toString /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:318:61
+      2  100.0%            /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      2    5.4%        Function: ^SourceNode_toString /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/source-map/lib/source-node.js:318:61
+      2  100.0%          /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      2  100.0%            LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     37    1.0%      Function: ^writevGeneric node:internal/stream_base_commons:126:23
+     37  100.0%        Function: ^Socket._writeGeneric node:net:769:42
+     37  100.0%          Function: ^Socket._writev node:net:801:36
+     36   97.3%            Function: ^doWrite node:internal/streams/writable:399:17
+      1    2.7%            LazyCompile: ~doWrite node:internal/streams/writable:399:17
+    185    2.8%    LazyCompile: *compileFunction node:vm:308:25
+    160   86.5%      LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+    160  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+    160  100.0%          LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+     87   54.4%            LazyCompile: *Module.require node:internal/modules/cjs/loader:991:36
+     73   45.6%            Function: ^Module.require node:internal/modules/cjs/loader:991:36
+     25   13.5%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+     25  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+     25  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+     25  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+
+    232    2.7%  __write
+    177   76.3%    /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      7    4.0%      /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      1   14.3%        LazyCompile: ~pathToFileURL node:internal/url:1507:23
+      1  100.0%          LazyCompile: ~resolveExports node:internal/modules/cjs/loader:472:24
+      1  100.0%            LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1   14.3%        LazyCompile: ~next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1  100.0%          LazyCompile: ~lex /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      1  100.0%            LazyCompile: ~lex /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:295:25
+      1   14.3%        LazyCompile: ~exports.install /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/whatwg-url/lib/URLSearchParams.js:96:19
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/whatwg-url/index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1   14.3%        LazyCompile: ~Glob._process /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:295:36
+      1  100.0%          LazyCompile: ~Glob._processGlobStar2 /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:631:45
+      1  100.0%            LazyCompile: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:625:43
+      1   14.3%        LazyCompile: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/streamroller/lib/fileNameFormatter.js:32:10
+      1  100.0%          LazyCompile: ~RollingFileWriteStream /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/streamroller/lib/RollingFileWriteStream.js:40:14
+      1  100.0%            LazyCompile: ~RollingFileStream /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/streamroller/lib/RollingFileStream.js:5:14
+      1   14.3%        Function: ^getOwn node:internal/bootstrap/loaders:180:16
+      1  100.0%          Function: ^syncExports node:internal/bootstrap/loaders:287:14
+      1  100.0%            Function: ^<anonymous> node:internal/bootstrap/loaders:273:15
+      1   14.3%        Function: ^LoggingEvent /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/LoggingEvent.js:17:14
+      1  100.0%          Function: ^_log /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/logger.js:106:7
+      1  100.0%            Function: ^log /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/log4js/lib/logger.js:82:6
+     38   16.4%    LazyCompile: *compileFunction node:vm:308:25
+     33   86.8%      LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+     33  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+     33  100.0%          LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+     21   63.6%            LazyCompile: *Module.require node:internal/modules/cjs/loader:991:36
+     12   36.4%            Function: ^Module.require node:internal/modules/cjs/loader:991:36
+      5   13.2%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      5  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      5  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      5  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+
+    206    2.4%  /usr/lib/x86_64-linux-gnu/libc-2.31.so
+    117   56.8%    /home/alan/.nvm/versions/node/v17.1.0/bin/node
+     22   18.8%      /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      6   27.3%        LazyCompile: *quotedString /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      3   50.0%          LazyCompile: *setupHelper /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1020:36
+      3  100.0%            LazyCompile: *invokeAmbiguous /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      3   50.0%          Function: ^pushSource /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      2   66.7%            Function: ^appendEscaped /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1   33.3%            Function: ^append /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      2    9.1%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
+      2  100.0%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      1   50.0%            Function: ^trySelf node:internal/modules/cjs/loader:441:17
+      1   50.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      2    9.1%        /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      2  100.0%          Function: ^set /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/session/memory.js:119:41
+      2  100.0%            Function: ^save /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/session/session.js:71:54
+      1    4.5%        LazyCompile: *pushSource /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1  100.0%          Function: ^append /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1  100.0%            LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    4.5%        LazyCompile: *parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%          Function: ^parseWithoutProcessing /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      1  100.0%            Function: ^parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1    4.5%        LazyCompile: *<anonymous> :1:20
+      1  100.0%          LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js:78:49
+      1  100.0%            /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      1    4.5%        LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:130:39
+      1  100.0%          /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      1  100.0%            Function: ^objectLiteral /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:123:40
+      1    4.5%        LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:331:47
+      1  100.0%          LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            LazyCompile: *fulfilled /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    4.5%        LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%          LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            LazyCompile: *fulfilled /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    4.5%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/mquery/node_modules/debug/src/node.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    4.5%        Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      1  100.0%          Function: ^trySelf node:internal/modules/cjs/loader:441:17
+      1  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1    4.5%        Function: ^prepareMustache /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:99:25
+      1  100.0%          LazyCompile: *anonymous /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      1  100.0%            LazyCompile: *parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1    4.5%        Function: ^normalize node:path:1127:12
+      1  100.0%          Function: ^join node:path:1166:7
+      1  100.0%            Function: ^makeAbs /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/common.js:203:18
+      1    4.5%        Function: ^nextPart node:fs:2395:31
+      1  100.0%          Function: ^realpathSync node:fs:2408:22
+      1  100.0%            Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      1    4.5%        Function: ^FastBuffer node:internal/buffer:958:14
+      1  100.0%          Function: ^createUnsafeBuffer node:internal/buffer:1059:28
+      1  100.0%            Function: ^allocUnsafeSlow node:buffer:382:50
+      9    7.7%      LazyCompile: *createUnsafeBuffer node:internal/buffer:1059:28
+      6   66.7%        Function: ^createPool node:buffer:150:20
+      5   83.3%          Function: ^fromStringFast node:buffer:412:24
+      5  100.0%            Function: ^fromString node:buffer:431:20
+      1   16.7%          LazyCompile: *fromStringFast node:buffer:412:24
+      1  100.0%            Function: ^fromString node:buffer:431:20
+      3   33.3%        Function: ^allocUnsafeSlow node:buffer:382:50
+      3  100.0%          Function: ^readFileAfterStat node:fs:326:27
+      6    5.1%      Function: ^serialize /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/node_modules/cookie/index.js:101:19
+      6  100.0%        Function: ^setcookie /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:655:19
+      6  100.0%          Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-session/index.js:220:28
+      6  100.0%            Function: ^writeHead /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/on-headers/index.js:28:29
+      4    3.4%      LazyCompile: *readPackage node:internal/modules/cjs/loader:290:21
+      3   75.0%        LazyCompile: *Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      3  100.0%          LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      2   66.7%            Function: ^Module.require node:internal/modules/cjs/loader:991:36
+      1   33.3%            LazyCompile: *Module.require node:internal/modules/cjs/loader:991:36
+      1   25.0%        LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      4    3.4%      LazyCompile: *readFileAfterStat node:fs:326:27
+      4    3.4%      LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2   50.0%        LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      2  100.0%          LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      2  100.0%            LazyCompile: *fulfilled /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1   25.0%        Function: ^compileInput /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%          Function: ^ret /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%            Function: ^ExpressHandlebars._renderTemplate /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1   25.0%        Function: ^compileChildren /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+      1  100.0%          LazyCompile: *compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileChildren /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+      3    2.6%      LazyCompile: *join node:path:1166:7
+      2   66.7%        LazyCompile: *makeAbs /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/common.js:203:18
+      2  100.0%          Function: ^Glob._makeAbs /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:255:36
+      2  100.0%            Function: ^Glob._readdirError /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:581:41
+      1   33.3%        Function: ^resolve /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/view.js:146:42
+      1  100.0%          Function: ^lookup /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/view.js:104:40
+      1  100.0%            Function: ^View /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/view.js:52:14
+      3    2.6%      LazyCompile: *inflight /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/inflight/inflight.js:7:19
+      3  100.0%        LazyCompile: *Glob._readdir /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:525:36
+      3  100.0%          LazyCompile: *Glob._processReaddir /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:368:43
+      3  100.0%            LazyCompile: *Glob._process /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:295:36
+      3    2.6%      Function: ^createFunctionContext /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:216:56
+      3  100.0%        Function: ^compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2   66.7%          Function: ^compileChildren /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+      2  100.0%            Function: ^compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   33.3%          Function: ^compileInput /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            Function: ^ret /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      2    1.7%      LazyCompile: *resolve node:path:1091:10
+      1   50.0%        Function: ^makeAbs /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/common.js:203:18
+      1  100.0%          Function: ^Glob._makeAbs /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:255:36
+      1  100.0%            Function: ^Glob._process /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:295:36
+      1   50.0%        Function: ^lookup /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/view.js:104:40
+      1  100.0%          Function: ^View /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/view.js:52:14
+      1  100.0%            Function: ^render /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/application.js:548:29
+      2    1.7%      LazyCompile: *realpathSync node:fs:2408:22
+      2  100.0%        LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1   50.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      1   50.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+     30   14.6%    LazyCompile: *compileFunction node:vm:308:25
+     26   86.7%      LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+     26  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+     26  100.0%          LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+     17   65.4%            Function: ^Module.require node:internal/modules/cjs/loader:991:36
+      9   34.6%            LazyCompile: *Module.require node:internal/modules/cjs/loader:991:36
+      4   13.3%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      4  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      4  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      4  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+
+    180    2.1%  __pthread_cond_signal
+     45   25.0%    LazyCompile: *readFile node:fs:373:18
+     21   46.7%      LazyCompile: *readFile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:111:21
+     21  100.0%        LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:368:47
+     21  100.0%          LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     21  100.0%            LazyCompile: *__awaiter /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+     13   28.9%      Function: ^go$readFile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:117:26
+     13  100.0%        Function: ^readFile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:111:21
+     13  100.0%          LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:368:47
+     13  100.0%            LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     11   24.4%      LazyCompile: *go$readFile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:117:26
+     11  100.0%        Function: ^readFile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:111:21
+     11  100.0%          LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:368:47
+     11  100.0%            LazyCompile: *step /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     43   23.9%    LazyCompile: *readFileAfterStat node:fs:326:27
+     27   15.0%    LazyCompile: *readFileAfterRead node:internal/fs/read_file_context:25:27
+     25   13.9%    LazyCompile: *readFileAfterOpen node:fs:310:27
+     22   12.2%    LazyCompile: *close node:internal/fs/read_file_context:111:8
+     22  100.0%      Function: ^readFileAfterRead node:internal/fs/read_file_context:25:27
+     10    5.6%    LazyCompile: *readdir node:fs:1353:17
+      9   90.0%      LazyCompile: *Glob._readdir /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:525:36
+      9  100.0%        LazyCompile: *Glob._processReaddir /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:368:43
+      9  100.0%          LazyCompile: *Glob._process /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:295:36
+      4   44.4%            LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:625:43
+      3   33.3%            Function: ^Glob._processGlobStar2 /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:631:45
+      2   22.2%            LazyCompile: *Glob._processGlobStar2 /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:631:45
+      1   10.0%      LazyCompile: *Glob._process /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:295:36
+      1  100.0%        Function: ^Glob /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:117:15
+      1  100.0%          Function: ^glob /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:62:15
+      1  100.0%            LazyCompile: *<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express-handlebars/dist/express-handlebars.js:331:47
+      4    2.2%    LazyCompile: *read node:internal/fs/read_file_context:85:7
+      4  100.0%      Function: ^readFileAfterStat node:fs:326:27
+
+     88    1.0%  fwrite
+     51   58.0%    /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      2    3.9%      LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      2  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:12:25
+      2  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      2    3.9%      /home/alan/.nvm/versions/node/v17.1.0/bin/node
+      1   50.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/main.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1   50.0%        Function: ^writeHead node:_http_server:267:19
+      1  100.0%          Function: ^writeHead /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/on-headers/index.js:28:29
+      1  100.0%            Function: ^writeHead /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/on-headers/index.js:28:29
+      1    2.0%      LazyCompile: ~validate_config /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@mapbox/node-pre-gyp/lib/util/versioning.js:195:25
+      1  100.0%        LazyCompile: ~exports.find /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@mapbox/node-pre-gyp/lib/pre-binding.js:17:24
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/bcrypt/bcrypt.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~setupHelperArgs /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      1  100.0%        LazyCompile: ~setupHelper /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1020:36
+      1  100.0%          LazyCompile: ~invokeAmbiguous /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%            LazyCompile: ~compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    2.0%      LazyCompile: ~retry /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:397:16
+      1  100.0%        LazyCompile: ~resetQueue /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:383:21
+      1  100.0%          LazyCompile: ~closeSync /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:72:24
+      1  100.0%            Function: ^readFileSync node:fs:450:22
+      1    2.0%      LazyCompile: ~realpathSync node:fs:2408:22
+      1  100.0%        LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:12:25
+      1    2.0%      LazyCompile: ~readFile node:fs:373:18
+      1  100.0%        LazyCompile: ~go$readFile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:117:26
+      1  100.0%          LazyCompile: ~readFile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:111:21
+      1  100.0%            LazyCompile: ~<anonymous> node:internal/util:346:24
+      1    2.0%      LazyCompile: ~r /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr/animal/type.js:1:388
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr/animal/type.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~patch /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/polyfills.js:29:16
+      1  100.0%        LazyCompile: ~patch /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:102:16
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/graceful-fs/graceful-fs.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/yargs-parser/build/index.cjs:108:10
+      1  100.0%        LazyCompile: ~yargsParser.detailed /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/yargs-parser/build/index.cjs:1041:33
+      1  100.0%          LazyCompile: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/yargs/build/index.cjs:1:56715
+      1  100.0%            LazyCompile: ~parse /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/yargs/build/index.cjs:1:39583
+      1    2.0%      LazyCompile: ~next /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/route.js:116:16
+      1  100.0%        Function: ^dispatch /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/route.js:98:45
+      1  100.0%          Function: ^handle /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            Function: ^<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/express/lib/router/index.js:280:64
+      1    2.0%      LazyCompile: ~makeWrapper /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/whatwg-url/lib/URLSearchParams.js:37:21
+      1  100.0%        LazyCompile: ~exports.create /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/whatwg-url/lib/URLSearchParams.js:50:18
+      1  100.0%          LazyCompile: ~exports.createImpl /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/whatwg-url/lib/URLSearchParams.js:55:22
+      1  100.0%            LazyCompile: ~URLImpl /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/whatwg-url/lib/URL-impl.js:7:14
+      1    2.0%      LazyCompile: ~h /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr_CH/animal/rabbit.js:1:388
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr_CH/animal/rabbit.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/zu_ZA/name/index.js:1:368
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/zu_ZA/name/index.js:1:1
+      1  100.0%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ur/name/index.js:1:368
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ur/name/index.js:1:1
+      1  100.0%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ur/date/index.js:1:368
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ur/date/index.js:1:1
+      1  100.0%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/sk/address/city_name.js:1:324
+      1  100.0%        LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/sk/address/index.js:1:368
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/sk/address/index.js:1:1
+      1  100.0%            LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ru/address/building_number.js:1:324
+      1  100.0%        LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ru/address/index.js:1:368
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ru/address/index.js:1:1
+      1  100.0%            LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/nb_NO/word/index.js:1:368
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/nb_NO/word/index.js:1:1
+      1  100.0%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/it/company/index.js:1:368
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/it/company/index.js:1:1
+      1  100.0%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/id_ID/address/street_address.js:1:324
+      1  100.0%        LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/id_ID/address/index.js:1:368
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/id_ID/address/index.js:1:1
+      1  100.0%            LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr_CA/address/street.js:1:324
+      1  100.0%        LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr_CA/address/index.js:1:368
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr_CA/address/index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/es_MX/company/index.js:1:368
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/es_MX/company/index.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_ZA/company/suffix.js:1:324
+      1  100.0%        LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_ZA/company/index.js:1:368
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_ZA/company/index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_IND/address/state.js:1:324
+      1  100.0%        LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_IND/address/index.js:1:368
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_IND/address/index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~get /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en/address/index.js:1:368
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en/address/index.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~g /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr_BE/address/city_suffix.js:1:388
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr_BE/address/city_suffix.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~g /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr/address/country.js:1:388
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fr/address/country.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~d /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/hy/internet/domain_suffix.js:1:388
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/hy/internet/domain_suffix.js:1:1
+      1  100.0%          LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~d /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_GB/internet/domain_suffix.js:1:388
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_GB/internet/domain_suffix.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~d /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en/company/bs_verb.js:1:388
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en/company/bs_verb.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:41:35
+      1  100.0%        LazyCompile: ~getStdout node:internal/bootstrap/switches/is_main_thread:121:19
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/yargs/build/index.cjs:1:1
+      1  100.0%            LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~createHttpErrorConstructor /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/http-errors/index.js:112:37
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/http-errors/index.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~createFunctionContext /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:216:56
+      1  100.0%        LazyCompile: ~compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: ~compileChildren /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+      1  100.0%            LazyCompile: ~compile /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    2.0%      LazyCompile: ~b /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ar/team/creature.js:1:388
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ar/team/creature.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~a /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en/name/index.js:1:259
+      1  100.0%        LazyCompile: ~r /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en/name/index.js:1:432
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en/name/index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~Mongoose._model /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/mongoose/lib/index.js:571:37
+      1  100.0%        LazyCompile: ~Mongoose.model /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/mongoose/lib/index.js:508:36
+      1  100.0%          Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/models/User.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1    2.0%      LazyCompile: ~Minimatch /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/minimatch/minimatch.js:163:15
+      1  100.0%        LazyCompile: ~setopts /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/common.js:48:18
+      1  100.0%          LazyCompile: ~Glob /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:117:15
+      1  100.0%            LazyCompile: ~glob /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/glob/glob.js:62:15
+      1    2.0%      LazyCompile: ~G /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_IND/address/state_abbr.js:1:388
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_IND/address/state_abbr.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      LazyCompile: ~C /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_NG/company/index.js:1:533
+      1  100.0%        Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_NG/company/index.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1    2.0%      Function: ~<anonymous> node:internal/modules/cjs/helpers:1:1
+      1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/source_map/source_map_cache:1:1
+      1    2.0%      Function: ~<anonymous> node:internal/fs/rimraf:1:1
+      1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/fs/promises:1:1
+      1    2.0%      Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/pl/index.js:1:1
+      1  100.0%        LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      1    2.0%      Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/mk/date/index.js:1:1
+      1  100.0%        LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      1    2.0%      Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/ja/lorem/index.js:1:1
+      1  100.0%        LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      1    2.0%      Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/fa/address/street_address.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      1    2.0%      Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/es_MX/phone_number/index.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      1    2.0%      Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/en_NG/address/street.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      1    2.0%      Function: ~<anonymous> /home/alan/projects/coderhouse-backend/backend-entregables/entregable-28/node_modules/@faker-js/faker/dist/cjs/locales/az/phone_number/index.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+     37   42.0%    LazyCompile: *compileFunction node:vm:308:25
+     34   91.9%      LazyCompile: *Module._compile node:internal/modules/cjs/loader:1051:37
+     34  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+     34  100.0%          LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+     22   64.7%            Function: ^Module.require node:internal/modules/cjs/loader:991:36
+     12   35.3%            LazyCompile: *Module.require node:internal/modules/cjs/loader:991:36
+      3    8.1%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      3  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1051:37
+      3  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1106:37
+      3  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+

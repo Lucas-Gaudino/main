@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "nombreProducto": "Producto 1",
+        "precio": "1000",
+        "cantidad": "1",
+        "total": "1000"
+    }
+    ,{
+        "id": "2",
+        "nombreProducto": "Producto 2",
+        "precio": "2000",
+        "cantidad": "2",
+        "total": "4000"
+    }
+    ,{
+        "id": "3",
+        "nombreProducto": "Producto 3",
+        "precio": "3000",
+        "cantidad": "3",
+        "total": "9000"
+    }
+]

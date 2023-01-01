@@ -1,0 +1,64 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <title>Handlebars</title>
+    </head>
+    <body>
+        <div class="container jumbotron mt-4">
+            <h1>Registrarse</h1>
+            <form method="POST" action="/auth/register" enctype="multipart/form-data">
+                 <div class="mb-3">
+                    <label class="form-label" for="email">Ingrese email</label>
+                
+                    <input class="form-control" type="email" name="email" />
+                </div>
+                <div class="mb-3">
+                <label class="form-label" for="password">Ingrese contraseña</label>
+               
+                <input class="form-control" type="password" name="password" />
+                </div>
+                <div class="mb-3">
+                <label class="form-label" for="name">Ingrese nombre</label>
+               
+                <input class="form-control" type="text" name="name" />
+               
+                </div>
+                <div class="mb-3">
+                <label class="form-label" for="age">Ingrese edad</label>
+                
+                <input class="form-control" type="number" name="age" />
+                </div>
+                <div class="mb-3">
+                <label class="form-label" for="address">Ingrese direccion</label>
+                
+                <input class="form-control" type="text" name="address" />
+               </div>
+                <div class="mb-3">
+                <label class="form-label" for="phone">Ingrese numero de telefono</label>
+                
+                <input class="form-control" type="text" name="phone" />
+                </div>
+                <div class="mb-3">
+                <label class="form-label" for="photo_url">Ingrese imagen de perfil</label>
+               
+                <input class="form-control" type="file" name="photo_url" accept="image/*" />
+                </div>
+
+                <button class="btn btn-primary" type="submit">Registrarse</button>
+            </form>
+            <a href="/auth/login">Iniciar sesión</a>
+
+            {{#if messages.error}}
+                <div>{{messages.error}}</div>
+            {{/if}}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "producto modificado con object assign posta2",
+    "description": "2",
+    "code": "123456",
+    "photo_url": "https://www.newbalance.com.ar/media/catalog/product/cache/4/image/700x538.46153846154/9df78eab33525d08d6e5fb8d27136e95/z/a/zapatillas-hombre-new-balance-x-90-msx90crh_nb_02_i.jpg",
+    "price": "200",
+    "stock": "9",
+    "id": 1,
+    "created_at": 1656524139604
+  }
+]
